@@ -5,6 +5,11 @@ This repository contains the necessary firmware patches, drivers, and runtime li
 ## 🚀 Overview
 The DeepX DX-M1 is a high-performance AI accelerator. On the IMDT i.MX 8M Plus SBC, the M.2 B-key slot (often used for PCIe) requires specific Device Tree configurations for power management, mode selection, and reset signaling to properly enumerate the card.
 
+<img width="698" height="610" alt="image" src="https://github.com/user-attachments/assets/ca8b1f0a-5962-4330-85bb-893dd47d694b" />
+
+<img width="600" height="199" alt="image" src="https://github.com/user-attachments/assets/98230d78-e7b7-499a-bb84-4eca6ec61ba9" />
+
+
 This project provides:
 - **Binary Device Tree (DTB)** with full hardware fixes.
 - **Cross-compiled Linux Drivers** for Kernel 6.6.52.
